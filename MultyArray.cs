@@ -1,39 +1,39 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
-namespace _03.multyDimArrayTutorial
+namespace _04.usingSplitInMultiDimArrays
 {
-    class MultyArray
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Please enter number of rows ");
-            int rows = int.Parse(Console.ReadLine());
-            Console.Write("Please enter number of columns ");
-            int cols = int.Parse(Console.ReadLine());
-
-            int[,] numbers = new int[rows, cols];  //rows->the total number of the rows,cols->the total numebr of columns
-
-            for (int row = 0; row < rows; row++)  //numbers.GetLenght(0); --we take the size of rows
-            {                                       //row-> curretn row into the matrix
-                for (int col = 0; col < cols; col++) //numbers.GetLenght(1) --we take the lenght ,the size of columns
-                {                                     //col the current row into the Matrix 
-                    Console.Write("Enter Matrix[{0}, {1}]", row, col);
-                    numbers[row, col] = int.Parse(Console.ReadLine()); //opens a new console Line form  :
-                                                                       //where we read currect number Element that we set to a position currentRow and currentCol i.e (0,0)
-
-                }
-            }
-            Console.WriteLine("your matrix is :");
-            for (int row = 0; row < rows; row++)
+            int[,] matrix =
             {
-                for (int col = 0; col < cols; col++)
+               { 7, 1 , 3 , 3 , 2, 1},
+               { 1, 3 , 9 , 8 , 5 , 6},
+               { 4, 6 , 7 , 9 , 1 , 0}
+            };
+            int maxSum = int.MinValue;
+            int maxRow = 0;
+            int maxCol = 0;
+
+            for (int row = 0; row < matrix.GetLength(0) - 1; row++)  // walk on each row of teh matrix wihout last row
+            {
+                for (int col = 0; col < matrix.GetLength(1) - 1; col++) //walk on each col of teh matrix witout last column;
                 {
-                    //Console.WriteLine(numbers[row, col]);
-                    Console.Write("{0}", numbers[row, col]);
+                    int sum = matrix[row, col] + matrix[row + 1, col] + matrix[row, col + 1] + matrix[row + 1, col + 1];
+                    if (sum > maxSum)
+                    {
+                        maxSum = sum;
+                        maxRow = row;
+                        maxCol = col;
+                    }
                 }
-                Console.WriteLine();
             }
+            Console.WriteLine("Max sum is: {0}", maxSum);
+            Console.WriteLine("{0} {1}", matrix[maxRow, maxCol], matrix[maxRow, maxCol + 1]);
+            Console.WriteLine("{0} {1}", matrix[maxRow + 1, maxCol], matrix[maxRow + 1, maxCol + 1]);
 
         }
     }
