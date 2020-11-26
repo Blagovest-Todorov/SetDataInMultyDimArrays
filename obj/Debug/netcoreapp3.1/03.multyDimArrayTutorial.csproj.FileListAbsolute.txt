@@ -1,0 +1,13 @@
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.exe
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.deps.json
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.runtimeconfig.json
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.runtimeconfig.dev.json
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.dll
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\bin\Debug\netcoreapp3.1\03.multyDimArrayTutorial.pdb
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.csprojAssemblyReference.cache
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.AssemblyInfoInputs.cache
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.AssemblyInfo.cs
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.dll
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.pdb
+C:\Users\Bla\source\repos\MultiDimentionalArrays\03.multyDimArrayTutorial\obj\Debug\netcoreapp3.1\03.multyDimArrayTutorial.genruntimeconfig.cache
